@@ -1,0 +1,35 @@
+1M iterations for each with 800k at 0.1 and 200k at 0.01
+Choices : 
+nbr_neurons_choices = [128, 256, 512]
+emb_dim_choices = [3, 6, 9]
+block_size_choices = [3, 4, 5]
+
+Trial: nbr_neurons=128, emb_dim=3, block_size=3, dev_loss=2.1599559783935547
+Trial: nbr_neurons=128, emb_dim=3, block_size=4, dev_loss=2.1190836429595947
+Trial: nbr_neurons=128, emb_dim=3, block_size=5, dev_loss=2.1250178813934326
+Trial: nbr_neurons=128, emb_dim=6, block_size=3, dev_loss=2.1345293521881104
+Trial: nbr_neurons=128, emb_dim=6, block_size=4, dev_loss=2.1237051486968994
+Trial: nbr_neurons=128, emb_dim=6, block_size=5, dev_loss=2.121736764907837
+Trial: nbr_neurons=128, emb_dim=9, block_size=3, dev_loss=2.1319828033447266
+Trial: nbr_neurons=128, emb_dim=9, block_size=4, dev_loss=2.111686944961548
+Trial: nbr_neurons=128, emb_dim=9, block_size=5, dev_loss=2.1131036281585693
+Trial: nbr_neurons=256, emb_dim=3, block_size=3, dev_loss=2.1237025260925293
+Trial: nbr_neurons=256, emb_dim=3, block_size=4, dev_loss=2.0873000621795654
+Trial: nbr_neurons=256, emb_dim=3, block_size=5, dev_loss=2.1153886318206787
+Trial: nbr_neurons=256, emb_dim=6, block_size=3, dev_loss=2.1074514389038086
+Trial: nbr_neurons=256, emb_dim=6, block_size=4, dev_loss=2.085289716720581
+Trial: nbr_neurons=256, emb_dim=6, block_size=5, dev_loss=2.1230556964874268
+Trial: nbr_neurons=256, emb_dim=9, block_size=3, dev_loss=2.1054446697235107
+Trial: nbr_neurons=256, emb_dim=9, block_size=4, dev_loss=2.0967376232147217
+Trial: nbr_neurons=256, emb_dim=9, block_size=5, dev_loss=2.0970025062561035
+Trial: nbr_neurons=512, emb_dim=3, block_size=3, dev_loss=2.10774827003479
+Trial: nbr_neurons=512, emb_dim=3, block_size=4, dev_loss=2.070091724395752
+Trial: nbr_neurons=512, emb_dim=3, block_size=5, dev_loss=2.0634546279907227
+Trial: nbr_neurons=512, emb_dim=6, block_size=3, dev_loss=2.125786304473877
+Trial: nbr_neurons=512, emb_dim=6, block_size=4, dev_loss=2.1390340328216553
+Trial: nbr_neurons=512, emb_dim=6, block_size=5, dev_loss=2.1271605491638184
+Trial: nbr_neurons=512, emb_dim=9, block_size=3, dev_loss=2.1586527824401855
+Trial: nbr_neurons=512, emb_dim=9, block_size=4, dev_loss=2.1564042568206787
+Trial: nbr_neurons=512, emb_dim=9, block_size=5, dev_loss=2.178793430328369
+
+Best configuration: 'nbr_neurons': 512, 'emb_dim': 3, 'block_size': 5, 'dev_loss': 2.0634546279907227, 'nbr_param': 22124,
